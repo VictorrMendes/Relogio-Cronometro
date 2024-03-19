@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+
+
+</head>
+<body>
+    <div class="container">
+
+        <!--Relogio-->
+        <div class="relogio">
+           <div>
+                <span id="horas_relogio" class="numeros">00</span>
+                <span class="tempo">Horas</span>
+            </div>
+
+            <div>
+                 <span id="minutos_relogio" class="numeros">00</span>
+                <span class="tempo">Minutos</span>
+            </div>
+
+            <div>
+                <span id="segundos_relogio" class="numeros">00</span>
+                <span class="tempo">Segundos</span>
+            </div>
+        </div>
+
+        <!--Cronômetro-->
+
+        <div class="cronometro">
+
+            <h1>Cronômetro</h1>
+
+             <div class="timer">
+              <div class="time" id="minutes">00</div>
+
+                  <div class="separetor2">:</div>
+
+              <div class="time" id="seconds">00</div>
+
+                  <div class="separetor2">:</div>
+
+              <div class="time" id="miliseconds">000</div>
+            </div>
+
+          <div class="buttons">
+
+            <button class="btn" id="startBtn">Iniciar</button>
+
+                <button class="btn" id="pauseBtn">Pausar</button>
+
+                <button class="btn" id="resumeBtn">Continuar</button>
+
+                <button class="btn" id="resetBtn">Resetar</button>
+            </div>
+
+        </div>
+
+</div>
+</body>
+</html>
